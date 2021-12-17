@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "SFUIText-light";
+    src: local(SFUIText-Light);
+    url (..\fonts\SFUIText-Light.wolf2) format("wolf2"),
+    url (..\fonts\SFUIText-light.wolf) format("wolf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SFUIText-Regular";
+    src: local("SFUIText-Regular");
+    url (/fonts/SFUIText-Regular.wolf2) format("wolf2"),
+    url (C//fonts/SFUIText-Regular.wolf) format("wolf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SFUIText-Medium;
+    src: local("SFUIText-Medium");
+    url(../fonts/SFUIText-Medium.wolf2) format("wolf2"),
+    url(../fonts/SFUIText-Medium.wolf) format("wolf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
